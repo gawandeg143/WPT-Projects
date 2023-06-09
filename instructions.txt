@@ -16,10 +16,25 @@ fatal: not a git repository (or any of the parent directories): .git
  git config user.name
  git congig user.email
 
-5] check status of the working directory and the staging area
+5] check status of or track the working directory and the staging area
  git status
 
 6] create a new git repository (i.e initializes a git repository)
  git init
 
-7] 
+7] move all untracked files to the staging area 
+ git add --a
+
+7] move a particular file to the staging area
+ git add filename.extension // git add instructions.txt
+
+8] commiting the changes or the files to the git repository with a message
+ git commit -m "--message--"
+
+9] to see your commits till now
+ git log
+
+10] to delete/remove the git repository // will not longer exist like a git repository
+ rm -rf .git
+
+11] 
