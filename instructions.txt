@@ -37,4 +37,5 @@ fatal: not a git repository (or any of the parent directories): .git
 10] to delete/remove the git repository // will not longer exist like a git repository
  rm -rf .git
 
-11] 
+11] clonning/copying an existing git repository to make a local copy
+ git clone repo-link // git clone https://github.com/gawandeg143/My_repo_hub.git
