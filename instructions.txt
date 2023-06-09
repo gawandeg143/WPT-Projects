@@ -1,0 +1,25 @@
+date : 09 June 2023
+    Installed Git in directory Gaurav(f:)
+
+1] checked git status :
+git status
+fatal: not a git repository (or any of the parent directories): .git
+
+2] Configuring name and email globally(throughout the system)
+ git config --global user.name "Gaurav"
+ git config --global user.email "gawandeg401@gmail.com"
+
+3] display list of configurations
+ git config --list
+
+4] to check name and email of the user
+ git config user.name
+ git congig user.email
+
+5] check status of the working directory and the staging area
+ git status
+
+6] create a new git repository (i.e initializes a git repository)
+ git init
+
+7] 
